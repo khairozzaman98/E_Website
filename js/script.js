@@ -1,11 +1,12 @@
-let searchForm= document.querySelector('.search-form');
+let searchForm = document.querySelector('.search-form');
 
 document.querySelector('#search-btn').onclick =() =>{
-    searchForm.classList.toggle('active');
+  searchForm.classList.toggle('active');
     shoppingCart.classList.remove('active');
     loginForm.classList.remove('active');
     navbar.classList.remove('active');
 }
+
 
 let shoppingCart= document.querySelector('.shopping-cart');
 
@@ -62,6 +63,7 @@ var swiper = new Swiper(".product-slider", {
     },
   });
 
+  
 var swiper = new Swiper(".review-slider", {
     loop:true,
     spaceBetween: 20,
